@@ -15,12 +15,12 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://martial2023.github.io/',
+  url: 'https://martial2023.github.io',
   baseUrl: '/ClientManagerDocs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Martial2023', // Usually your GitHub org/user name.
+  organizationName: 'martial2023', // Usually your GitHub org/user name.
   projectName: 'ClientManagerDocs', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
