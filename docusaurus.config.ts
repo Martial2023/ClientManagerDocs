@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://github.com/Martial2023/',
+  url: 'https://martial2023.github.io/',
   baseUrl: '/ClientManagerDocs/',
 
   // GitHub pages deployment config.
