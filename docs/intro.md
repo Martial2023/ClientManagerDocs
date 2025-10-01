@@ -5,17 +5,17 @@ Cette plateforme permet aux restaurants de gérer efficacement leurs commandes, 
 
 ## Contenu
 
-- [Devices Management](./devices)
-- [Servers Management](./servers)
-- [Orders Management](./orders)
-- [Webhooks](./webhooks)
+- [Devices Management](/devices)
+- [Servers Management](/servers)
+- [Orders Management](/orders)
+- [Webhooks](/webhooks)
 ---
 
 ## Base URL
 Toutes les requêtes doivent être envoyées à l'URL de base suivante :
 
 ```
-https://api.clientmanager.com/v1
+https://clientmanagerapi.onrender.com
 ```
 
 ## Endpoints principaux
