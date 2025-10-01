@@ -5,10 +5,10 @@ Cette plateforme permet aux restaurants de gérer efficacement leurs commandes, 
 
 ## Contenu
 
-- [Devices Management](/devices)
-- [Servers Management](/servers)
-- [Orders Management](/orders)
-- [Webhooks](/webhooks)
+- [Devices Management](./devices)
+- [Servers Management](./servers)
+- [Orders Management](./orders)
+- [Webhooks](./webhooks)
 ---
 
 ## Base URL
