@@ -42,3 +42,31 @@ Le serveur est identifié par son email et est préalablement ajouté par son ma
 ```bash
 curl -X GET "https://ton-api.onrender.com/servers/serveur@rest/restaurants"
 ```
+
+
+### Endpoint GET /servers/:email/:restaurantId/tables
+### Paramètres
+- `email` (string, requis) : L'email du serveur.
+- `restaurantId` (string, requis) : L'ID du restaurant.
+
+### Description
+Permet de récupérer la liste des tables d'un restaurant pour un serveur via son email et l'ID du restaurant.
+Le serveur est identifié par son email et est préalablement ajouté par son manager à l'espace de travail du restaurant en l'associant à une table.
+
+### Réponses
+- **200 OK** : Liste des tables récupérée avec succès.
+    ```json
+    {
+        "ok": true,
+        "tables": [
+            {
+                "tableId": "table123",
+                "tableName": "Table 1"
+            },
+            {
+                "tableId": "table456",
+                "tableName": "Table 2"
+            }
+        ]
+    }
+    ```
